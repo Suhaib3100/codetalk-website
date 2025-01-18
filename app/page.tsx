@@ -4,7 +4,7 @@ import { CodeShowcase } from "@/components/code-showcase"
 import { FeatureCard } from "@/components/feature-card"
 import { AnimatedTerminal } from "@/components/animated-terminal"
 import { CommandMenu } from "@/components/command-menu"
-import { Brain, Code2, Cpu, GitFork, Terminal, Zap } from 'lucide-react'
+import {  Terminal} from 'lucide-react'
 import { CodePreview } from "@/components/code-preview"
 import { GradientLines } from "@/components/gradient-lines"
 

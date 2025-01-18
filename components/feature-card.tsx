@@ -1,7 +1,4 @@
 'use client'
-
-import { TypeIcon as type, LucideIcon } from 'lucide-react'
-
 interface FeatureCardProps {
   iconName: string
   title: string
