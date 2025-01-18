@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef, type MouseEvent } from 'react'
-import { motion, useAnimationFrame, useMotionValue, useSpring, useTransform } from 'framer-motion'
+import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
 import { cn } from '@/lib/utils'
 
 export function MagneticButton({
