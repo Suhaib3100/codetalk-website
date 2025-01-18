@@ -14,7 +14,6 @@ export function MagneticButton({
   onClick?: () => void
 }) {
   const ref = useRef<HTMLButtonElement>(null)
-  const [hovered, setHovered] = useState(false)
 
   // Mouse position
   const mouseX = useMotionValue(0)
@@ -40,7 +39,6 @@ export function MagneticButton({
   function onMouseLeave() {
     mouseX.set(0)
     mouseY.set(0)
-    setHovered(false)
   }
 
   return (
@@ -51,7 +49,6 @@ export function MagneticButton({
         className
       )}
       onMouseMove={onMouseMove}
-      onMouseEnter={() => setHovered(true)}
       onMouseLeave={onMouseLeave}
       onClick={onClick}
       style={{
@@ -86,4 +83,3 @@ export function MagneticButton({
     </motion.button>
   )
 }
-
