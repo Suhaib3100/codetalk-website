@@ -1,12 +1,11 @@
 'use server'
 
-export async function handleSearch(query: string) {
+export async function handleSearch() {
   // Server-side search implementation
   return { results: [] }
 }
 
-export async function handleCommand(command: string) {
+export async function handleCommand() {
   // Server-side command handling
   return { success: true }
 }
-
