@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, type MouseEvent } from 'react'
+import { useRef, type MouseEvent } from 'react'
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
 import { cn } from '@/lib/utils'
 
