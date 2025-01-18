@@ -1,3 +1,4 @@
+// components/search-button.tsx
 'use client'
 
 import { Search, Command } from 'lucide-react'
@@ -7,7 +8,7 @@ export function SearchButton() {
   return (
     <button
       className="group px-3 py-1.5 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 transition-all flex items-center space-x-2 text-sm text-white/70 hover:text-white"
-      onClick={() => handleSearch('')}
+      onClick={handleSearch}  // No argument is passed
     >
       <Search className="size-4" />
       <span className="hidden lg:inline">Search docs</span>
@@ -18,4 +19,3 @@ export function SearchButton() {
     </button>
   )
 }
-
